@@ -1,0 +1,108 @@
+CodSoft Internship - Task 2 Submission
+
+Project Title
+
+Tic-Tac-Toe AI
+
+Task
+
+CodSoft Internship - Task 2: Tic-Tac-Toe AI
+
+Project Description
+
+I developed a Python-based Tic-Tac-Toe game in which a human player competes against an AI agent.
+
+The AI uses the Minimax algorithm to evaluate possible game states and select the optimal move. The objective is to create an AI opponent that plays intelligently and cannot be defeated when the algorithm is used correctly.
+
+Main Features
+
+- Human vs AI gameplay
+- AI decision-making using Minimax
+- Unbeatable AI strategy
+- Win detection
+- Draw detection
+- Invalid input handling
+- Replay option
+- Command-line interface
+- No external Python dependencies
+
+Technologies Used
+
+- Python 3
+- Minimax algorithm
+- "math" standard library
+- Functions
+- Lists
+- Loops
+- Conditional statements
+- Recursion
+
+How the AI Works
+
+The AI uses the Minimax algorithm.
+
+For every available move, the AI simulates possible future game situations and evaluates the resulting outcomes.
+
+The algorithm assigns higher scores to AI wins, lower scores to human wins, and a neutral score to draws.
+
+The AI then selects the move with the best possible outcome.
+
+Board Positions
+
+ 1 | 2 | 3
+---+---+---
+ 4 | 5 | 6
+---+---+---
+ 7 | 8 | 9
+
+The human player uses X, while the AI uses O.
+
+How to Run
+
+python tic_tac_toe.py
+
+Learning Outcomes
+
+Through this project, I learned and practiced:
+
+- Game development using Python
+- Artificial Intelligence fundamentals
+- Minimax algorithm
+- Recursion
+- Game-state evaluation
+- Conditional logic
+- Functions and modular programming
+- User input validation
+- GitHub repository management
+
+Testing
+
+The game was tested by playing multiple rounds against the AI and checking:
+
+- Winning conditions
+- Draw conditions
+- AI responses
+- Invalid inputs
+- Occupied positions
+- Replay functionality
+
+Future Improvements
+
+Future versions could include:
+
+- GUI interface
+- Difficulty levels
+- Scoreboard
+- Human vs Human mode
+- Web version
+- More advanced AI techniques
+
+Conclusion
+
+This project demonstrates the implementation of an AI agent for a classic game using the Minimax algorithm.
+
+The project provided practical experience with artificial intelligence concepts, recursion, game logic, and Python programming.
+
+Submitted by: Nishesh Raj Singh
+Program: BTech CSE (AI/ML)
+Year: 1st Year
